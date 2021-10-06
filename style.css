@@ -1,0 +1,191 @@
+/* * {
+  border: 1px solid red;
+} */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.logo {
+  display: flex;
+  margin-left: 24px;
+  border: 1px solid red;
+  align-items: center;
+}
+
+.logo .comlmar {
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 24px;
+}
+
+.nav li {
+  display: flex;
+  margin: 8px;
+}
+
+.banner {
+  display: flex;
+  background: lightgray;
+}
+
+.banner img {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.banner-info h2 {
+  text-align: left;
+}
+
+.banner-info button {
+  background-color: dimgray;
+  color: white;
+  width: 70%;
+  padding: 8px;
+}
+
+.section-2 {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.section-2 .column-1 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.section-2 .column-2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+}
+
+.section-2 .column-2 .column-2-card {
+  display: flex;
+  width: 100%;
+}
+
+.column-2-card h2 {
+  font-size: 18px;
+}
+
+.section-2 .column-2 .column-2-card:nth-of-type(3) {
+  background: lightgray;
+}
+
+.section-2 .column-2 .column-2-card img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.section-2 .column-2 .column-2-card .column-2-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  background: whitesmoke;
+}
+
+.section-3 .header {
+  display: flex;
+  justify-content: center;
+  margin: 32px auto;
+}
+
+.section-3-row-1 {
+  display: flex;
+}
+
+.section-3-row-2 {
+  display: flex;
+}
+
+.section-3-card {
+  margin: 10px;
+  background: white;
+  width: 300px;
+}
+
+.section-3 img {
+  width: 100%;
+}
+
+.section-3-card-info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.section-3-card-info h1 {
+  font-size: 18px;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-4 .body {
+  display: flex;
+}
+
+.section-4 .video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.section-4 .video-container video {
+  width: 100%;
+}
+
+.section-4 .video-container h2,
+p {
+  align-self: flex-start;
+}
+
+.exhibits-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.exhibit-card {
+  display: flex;
+}
+
+.exhibit-card img {
+  width: 35%;
+  margin: 16px;
+}
+
+.exhibit-card h1 {
+  font-size: 24px;
+}
+
+.exhibit-card p {
+  font-size: 16px;
+}
